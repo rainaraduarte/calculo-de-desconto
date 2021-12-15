@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de desconto</title>
+    <style type="text/css">
+h1, h2, h3, p {
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    height: 1300px;
+    margin: auto;
+}
+.form { 
+    text-align: center;
+    padding: 10px;
+    border: solid 2px;
+}
+    </style>
+</head>
+<body>
+    <h1> Cálculo de desconto</h1>
+    <div class="container">
+        <form class="form" action="registro.php" method="post">
+            <h3>Digite o valor do produto e a % de desconto:</h3>
+            <p>
+                <label for="valorproduto">Valor do produto:</label>
+                <input type="text" name="valorproduto" id="valorproduto" />
+            </p>
+            <p>
+                <label for="desconto">% de desconto:</label>
+                <input type="text" name="desconto" id="desconto" />
+            </p>
+            <p>
+                <input type="submit" value="Calcular" />
+            </p>
+        </form>
+    </div>
+    
+</body>
+</html>
